@@ -1,0 +1,157 @@
+.container-element >*{
+margin-bottom: 10px;
+
+}
+
+.container-element{
+  align-items: center;
+  font-size: 23px;
+}  
+
+.container-element img{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.columns-positions{
+    position: relative;
+    width: 90%;
+  
+}
+
+.columns-positions svg{
+    width: 30px;
+    height: 30px;
+      position: absolute;
+    right: 19px;
+  top: 3px;
+  cursor: pointer;
+}
+
+.columns-positions{
+
+    width: 100%;
+}
+
+span{
+    font-weight: bold;
+}
+
+.l {
+    color: black;
+    opacity: 0;
+    animation: pass 2s ease-in-out infinite;
+    animation-delay: 0.2s;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #595757;
+  }
+  
+  .o {
+    color: black;
+    opacity: 0;
+    animation: pass 2s ease-in-out infinite;
+    animation-delay: 0.4s;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #595757;
+  }
+  
+  .a {
+    color: black;
+    opacity: 0;
+    animation: pass 2s ease-in-out infinite;
+    animation-delay: 0.6s;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #595757;
+  }
+  
+  .d {
+    color: black;
+    opacity: 0;
+    animation: pass 2s ease-in-out infinite;
+    animation-delay: 0.8s;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #595757;
+  }
+  
+  .i {
+    color: black;
+    opacity: 0;
+    animation: pass 2s ease-in-out infinite;
+    animation-delay: 1s;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #595757;
+  }
+  
+  .n {
+    color: black;
+    opacity: 0;
+    animation: pass 2s ease-in-out infinite;
+    animation-delay: 1.2s;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #595757;
+  }
+  
+  .g {
+    color: black;
+    opacity: 0;
+    animation: pass 2s ease-in-out infinite;
+    animation-delay: 1.4s;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #595757;
+  }
+  
+  .d1 {
+    color: black;
+    opacity: 0;
+    animation: pass1 2s ease-in-out infinite;
+    animation-delay: 1.6s;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #595757;
+  }
+  
+  .d2 {
+    color: black;
+    opacity: 0;
+    animation: pass1 2s ease-in-out infinite;
+    animation-delay: 2s;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 3px #595757;
+  }
+  
+  @keyframes pass {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes pass1 {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+@media screen and (max-width: 600px){
+    .images{
+        width: 100%;
+    }
+    .container-element{
+        width: 100%;
+        font-size: 20px;
+    }
+
+}
